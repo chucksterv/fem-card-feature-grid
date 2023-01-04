@@ -1,0 +1,10 @@
+@use "functions" as *;
+
+$fs-regular: rem(15px);
+$fs-heading: clamp(1rem, 6.5vw, 2.25rem);
+
+$fw-light: 200;
+$fw-regular: 400;
+$fw-bold: 600;
+
+$ff-default: "Poppins", sans-serif;

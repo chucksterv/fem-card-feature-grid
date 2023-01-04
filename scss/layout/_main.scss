@@ -1,0 +1,12 @@
+@use "../abstracts/" as *;
+
+main {
+  width: min(100% - 4rem, em(1200px));
+  margin: 2rem auto;
+}
+
+p.description {
+  margin-top: 1rem;
+  margin-inline: auto;
+  width: min(55ch, 100%);
+}
